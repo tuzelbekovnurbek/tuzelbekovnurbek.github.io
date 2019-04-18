@@ -1,0 +1,218 @@
+/* ==================================================================
+
+*   Media Queries
+
+/* ================================================================== */
+
+/* mobile wide/smaller tablets
+---------------------------------------------------------------------- */
+
+@media only screen and (max-width: 760px){
+	body{
+		width: auto;
+		height: auto;
+	}
+	#nav-wrap{
+		width: auto;
+		margin: 0; padding: 0;
+	}
+	#nav-wrap .navbar-brand{
+		position: relative;
+		right: 40px;
+	}
+	#nav-wrap ul{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	#nav-wrap ul li{
+		position: relative;
+		left: 1px; right: 10px;
+	}
+	.nav-active{
+		height: 130px;
+	}
+	.banner{
+		width: auto;
+		position: relative;
+		top: 15px; right: 10px;
+	}
+	.banner .head-text{
+		font-size: 22px;
+	}
+	.banner h3{
+		font-size: 20px;
+	}
+	.banner .social{
+		display: flex;
+		flex-direction: row;
+		position: relative;
+		top: 80px; left: 30px;
+	}
+	#modal{
+		width: 58%;
+	}
+	#about{
+		height: 160vh;
+	}
+	#about img{
+		width: 200px; height: 200px;
+		position: relative;
+		left: 90px;
+	}
+	#about .main-col h2{
+		position: absolute;
+		bottom: 350px; left: 100px;	  
+	}
+	#about .main-col p{
+		width: 70%;
+		position: absolute;
+		left: 15px;
+	}
+	#about .main-col a{
+		position: absolute;
+		top: 500px;
+	}
+	#about .main-col .show{
+		position: absolute;
+		left: 10px; top: 520px;
+		width: 70%;
+	}
+	#about .main-col .down{
+		position: absolute;
+		top: 580px;
+		left: 10px;
+		width: 70%;
+	}
+	#resume{
+		height: 400vh;
+	}
+	#resume .education h3{
+		position: relative;
+		top: 30px;
+	}
+	#resume h1{
+		position: relative;
+		left: 100px;
+	}
+	#resume .education h3{
+		position: relative;
+		top: 40px; right: 85px;
+	}
+	#resume .university p{
+		position: relative;
+		top: 70px; right: 130px;
+		width: 40%;
+	}
+	#resume .school{
+		position: relative;
+		top: 150px;
+	}
+	#resume .school h3{
+		position: relative;
+		right: 60px;
+	}
+	#resume .school p{
+		position: relative;
+		width: 45%;
+		top: 70px; right: 140px;
+	}
+	#resume hr{
+		position: relative;
+		top: 250px;
+	}
+	.skill{
+		position: relative;
+		top: 200px;
+	}
+	.skill h1 span{
+		position: relative;
+		left: 35px;
+	}
+	.skill .main-col .skill-text{
+		position: relative;
+		top: 80px; right: 95px;
+	}
+	.skill .main-col .bars{
+		position: relative;
+		top: 60px; right: 172px;
+		width: 120%;
+	}
+	.skill hr{
+		position: relative !important;
+		top: 100px !important;
+	}
+	#works{
+		position: relative;
+		top: 230px;
+	}
+	#works h1 span{
+		position: relative;
+		top: 30px; left: 30px;
+		z-index: 1;
+	}
+	#works .work-text{
+		position: absolute;
+		top: 180px; left: 1px;
+	}
+	#works #portfolio-wrapper .columns{
+		position: relative;
+		top: 280px;
+	}
+	#works .portfolio-item  .sh{
+		position: relative;
+		right: 170px;
+	}
+	#works .portfolio-item  .sn{
+		position: absolute;
+		left: 1px;
+		top: 20px;
+	}
+	.mob-ph{
+	background-image: url(../../image/scrollspe_wallpaper.jpg);
+	width: 100%; height: 200px;
+	position: absolute;
+	background-size: cover;
+    background: transparent;
+    position: absolute;
+    top: 4300px;
+    }
+    #contact{
+    	width: 100%;
+    	min-height: 100px;
+    }
+    #contact #go-top{
+    	position: relative;
+    	left: 145px;
+    }
+    #contact .social{
+    	position: relative;
+    	right: 300px; bottom: 60px;
+    }
+    #contact .copyright{
+    	position: relative;
+    	width: 80%;
+    	right: 190px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

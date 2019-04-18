@@ -1,0 +1,233 @@
+body{
+	padding:0;
+	margin: 0;
+	overflow-x:hidden;
+}
+
+// -------------------------------
+// NAVIGATION BAR
+// -------------------------------
+
+nav{
+	width: 100%;
+	position: fixed !important;
+	height: 15vh;
+	background-color: #000;
+	z-index: 99;
+	.navbar-brand{
+		color:#fff;
+		font-family: 'Shadows Into Light', cursive;
+		font-size: 35px;
+		font-weight: 400px;
+		letter-spacing: 0.7px;
+		position: relative;
+		left: 100px;
+	}
+	ul{
+		background-color:#000;
+		position: relative;
+		left: 360px;
+		li{
+			a{
+				display: inline-block;
+				color: #fff;
+				margin-left:10px;
+				transition: 0.5s;
+				font-family: 'Lato', sans-serif;
+			}
+		}
+	}
+	a:hover{
+		display: inline-block;
+		font-size: 18px;
+		color: #ff9900;
+	}
+	form{
+		position: relative;
+		left: 300px;
+	}
+	.login{
+		position: absolute;
+		left: 1190px;
+		width: 30%;
+		li{
+			a{
+				font-family: 'Lato', sans-serif;
+				i{
+					margin-right: 7px;
+				}
+			}
+		}
+	}
+}
+
+// -------------------------------
+// HOME PAGE
+// -------------------------------
+
+.home-page{
+	background-color: #000;
+	height: 100vh;
+	.row{
+		.col-lg-7{
+			.box-txt{
+				width: 70%;
+				position: relative;
+				top: 230px; left: 170px;
+				h2{
+					font-size: 35px;
+					padding: 10px 20px;
+					color:#fff;
+					font-family: 'Lato', sans-serif;
+				}
+				p{
+					padding: 10px 20px;
+					color: #fff;
+				}
+				a{
+					margin: 10px 20px;
+				}
+				span{
+					width: 20%; height: 2px;
+					background-color:#fff;
+					position: relative;
+					top: 100px;
+				}
+			}
+			.social{
+				position: relative;
+				top: 300px; left: 120px;
+				ul{
+					display: flex;
+					flex-direction:row;
+					li{
+						list-style: none;
+						a{
+							display: inline-block;
+							color: #fff;
+							margin-left: 25px;
+							font-size: 25px;
+							transition: 0.3s;
+						}
+						a:hover{
+							display: inline-block;
+							font-size: 27px;
+							color: #ff9900;
+						}
+					}
+				}
+			}
+
+		}
+		.col-lg-5{
+			.box{
+				width: 400px; height: 400px;
+				background-color: #ff9900;
+				position: absolute;
+				top: 200px; left: 20px;
+				border-radius:50%;
+				box-shadow: 0 0 30px #ff9900;
+				img{
+					position: relative;
+					bottom:80px; right: 50px;
+					height: 79vh;
+				}
+			}
+		}
+	}
+}
+
+// -------------------------------
+// ABOUT PAGE
+// -------------------------------
+
+
+.about-page{
+	background-color:#000;
+	width: 100%; height: 80vh;
+	.row{
+		.col-lg-5{
+			.about-txt{
+				width: 100%;
+				position: relative;
+				left: 130px; top: 60px;
+				padding: 25px 30px;
+				color: #fff;
+			}
+		}
+		.col-lg-7{
+			p{
+
+				color:#fff;
+				font-family: 'Shadows Into Light', cursive;
+				font-size: 150px;
+				font-weight: 400px;
+				letter-spacing: 1px;
+				position: relative;
+				top: 30px; left:150px;
+				text-shadow: 0 0 45px #ff9900;
+				transform: rotate(-25deg);
+			}
+		}
+	}
+}
+
+// -------------------------------
+// FOOTER PAGE
+// -------------------------------
+
+.contact{
+	overflow:hidden;
+	position: relative;
+	background-color: #000;
+	height: 60vh;
+	.container{
+		.row{
+			.col-lg-4{
+				padding-top: 40px;
+				padding-left: 120px;
+				color: #fff;
+			}
+			.link-page{
+				ul{
+					list-style: none;
+					li{
+						position: relative;
+						top: 20px;
+						margin-top: 10px;
+						a{
+							display: block;
+							font-size: 20px;
+							color: #7C7C7D;
+							font-weight: 450;
+							letter-spacing: 1.5px;
+						}
+					}
+				}
+			}
+			.foot-brand{
+				h2{
+					position: absolute;
+					right: 100px;
+		            font-weight: 700;
+		            letter-spacing: 0.5px;
+		            font-size: 70px;
+		            color: #fff;
+				}
+				.form-inline{
+					position: absolute;
+					right: 50px;
+					top: 170px;
+				}
+			}
+		}
+	}
+	.copy{
+		position: relative;
+		top: 80px;
+		color: #fff;
+		left: 35px;
+	}
+}
+
+

@@ -1,0 +1,141 @@
+@media screen and (max-width: 480px){
+	body{
+		padding: 0;
+		margin:0;
+		overflow-x: 0;
+	}
+	nav{
+		height: 25vh;
+		width: auto;
+	}
+	nav .navbar-brand{
+		position: relative;
+		left: 100px;
+	}
+	nav ul {
+		display: flex;
+		flex-direction: row !important;
+	}
+	nav ul li{
+		position: relative;
+		right: 300px;
+		bottom: 10px;
+		display: flex;
+		flex-direction: row;
+		margin:0 10px 0 10px;
+	}
+	.head-user{
+		height: 90vh;
+		background-color: #000;
+	}
+	.head-user img{
+		position: relative ;
+		top: 170px; left: 60px;
+	}
+	.head-user .user-info ul{
+		position: relative;
+		right: 60px;
+	}
+	.head-user .user-info a{
+		position: relative;
+        top: 80px; left: 50px;
+	}
+	.main-content{
+		width: auto;
+		background-color: #fff;
+	}
+	.main-content .row .col-lg-7 {
+		height: 100vh;
+	}
+	.main-content .row .col-lg-7 .form-group {
+		position: relative;
+		left: 10px;
+		top: 40px;
+	}
+	.main-content .row .col-lg-7 .form-group input {
+		width: 70%;
+		border: 2px solid black;
+	}
+    .main-content .row .col-lg-7 button {
+    	position: relative;
+    	left: 290px;
+    }
+    .main-content .row .col-lg-7 .card{
+     	position: relative;
+     	left: 10px;
+     	width: 94%;
+    }
+    .main-content .row .col-lg-7 .card .card-header .delete{
+    	position: relative;
+    	left: 235px; bottom: 50px;
+    } 
+
+} 
+
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+	body{
+		padding: 0;
+		margin:0;
+		overflow-x: 0;
+	}
+	nav{
+		height: 15vh;
+		width: 100%;
+	}
+	nav .navbar-brand{
+		position: relative;
+		left: 40px; 
+	}
+	nav ul {
+		display: flex;
+		flex-direction: row !important;
+	}
+	nav ul li{
+		position: relative;
+		right: 240px;
+		bottom: 5px;
+		display: flex;
+		flex-direction: row;
+		margin:0 10px 0 10px;
+	}
+	.head-user{
+		height: 65vh;
+		background-color: #000;
+	}
+	.head-user img{
+		position: relative ;
+		top: 110px; left: 60px;
+	}
+	.head-user .user-info ul{
+		position: relative;
+		right: 90px;
+		top: 70px;
+	}
+	.head-user .user-info a{
+		position: relative;
+        top: 180px; left: 60px;
+	}
+	.main-content{
+		width: auto;
+		background-color: #fff;
+	}
+	.main-content .row .col-lg-7 {
+		height: 100vh;
+	}
+	.main-content .row .col-lg-7 .form-group {
+		position: relative;
+		left: 1px;
+		top: 40px;
+	}
+	.main-content .row .col-lg-7 .form-group input {
+		position: relative;
+		width: 100%;
+		right: 30px;
+		border: 2px solid black;
+	}
+	.main-content .row .col-lg-7 button {
+    	position: relative;
+    	left: 500px;
+    }
+}
